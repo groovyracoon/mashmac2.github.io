@@ -1,37 +1,53 @@
 <!doctype html>
 <html>
 	<head>
-		<title>Test, test, 123</title>
-		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Page 1</title>
+		<style>
+			/*This is CSS code, not HTML*/
+			#container{
+				width: 1000px;
+				margin: 0 auto;
+				background-color: #ff0000;
+			}
+
+			#header{
+				margin-left: 25px;
+			}
+			
+			#content{
+				margin-left: 25px;
+			}
+			
+			#content2 img{
+				width: 300px;
+				margin-left: 25px;
+				margin-right: 0px;
+			}
+		</style>
 	</head>
-	<body id="home">
-		<h1>Web Design</h1>
+	<body>
 		<div id="container">
 			<div id="header">
-				<div id="top-header">
-				</div>
-				<div id="menu">
-				</div>
+				<img src="logo.jpg" />
+				<h1>Site Title</h1>
+				<nav id="mainmenu">
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="projects.html">Projects</a></li>
+						<li><a href="contact.html">Contact</a></li>
+					</ul>
+				</nav>
 			</div>
 			<div id="content">
-				<div id="picture">
-				</div>
-				<div id="copy">
-					<div id="left">
-					</div>
-					<div id="right">
-					</div>
-				</div>
+					<img src="pic.jpg" style="float: left; width: 300px; margin-right: 25px;" />
+					<p>Blah blah blah
+					</p>
 			</div>
-			<div id="footer">
-				<div id="col1">
-				</div>
-				<div id="col2">
-				</div>
-				<div id="col3">
-				</div>
-				<div id="col4">
-				</div>
+			<div id="content2">
+				<img src="pic.jpg" />
+				<img src="pic.jpg" />
+				<img src="pic.jpg" style="margin-right: 25px;"/>
 			</div>
 		</div>
 	</body>
