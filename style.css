@@ -1,9 +1,36 @@
+/* style.css for personal website project */
 body{
-	background-color: #FF0000;
-	font-size: 60px;
-	color: white;
+	background-color: pink;
+	margin: 0;
 }
 
-#home{
-	background-color: green;
+h1{
+	margin-top: 0; 
+}
+
+img{
+	width: 400px;
+}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu li {
+    display: inline;
+}
+
+#container{
+	background-color: white;
+	width: 1000px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#footer{
+	text-align: center;
+	border-top: 1px solid black;
+	padding-bottom: 1px;
 }
