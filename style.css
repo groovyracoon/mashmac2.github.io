@@ -22,6 +22,15 @@ img{
     display: inline;
 }
 
+#content img{
+	float: left;
+	margin-right: 10px;
+}
+
+#content{
+	height: 280px;
+}
+
 #container{
 	background-color: white;
 	width: 1000px;
