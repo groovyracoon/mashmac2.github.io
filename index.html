@@ -3,30 +3,47 @@
 	<head>
 		<title>Hello!</title>
 		<style>
-			#header{
-				background-color: blue;
-			}
-			#content{
-				background-color: yellow;
-				height: 100px;
-				width: 100%;
-			}
-			#footer{
-				background-color: blue;
-				height: 100px;
-				width: 100%;
-			}
+		#container{
+			width: 1100px;
+			margin: 0 auto;
+			background-color: blue;
+			padding: 10px;
+		}
+		body {
+			background-color: green;
+			margin: 0;
+		}
+		h2{
+			margin-top: 0;
+		}
+		#col1{
+			width: 800px;
+			background-color: yellow;
+			display: inline-block;
+		}
+		#col2{
+			width: 250px;
+			background-color: purple;
+			display: inline-block;
+		}
 		</style>
 	</head>
 	<body>
-		<div id="header">
-			<h2>Hi there!</h2>
-		</div>
-		<div id="content">
+		<div id="container">
+			<div id="header">
+				<h2>Hi there!</h2>
+			</div>
+			<div id="content">
+				<div id="col1">
+					<p>Blah Blah Blah</p>
+				</div>
+				<div id="col2">
+					<p>Blah</p>
+				</div>	
+			</div>
+			<div id="footer">
 
-		</div>
-		<div id="footer">
-		
+			</div>
 		</div>
 	</body>
 </html>
