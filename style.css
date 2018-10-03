@@ -1,45 +1,26 @@
-/* style.css for personal website project */
-body{
-	background-color: pink;
-	margin: 0;
-}
-
-h1{
-	margin-top: 0; 
-}
-
-img{
-	width: 400px;
-}
-
-#menu ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-#menu li {
-    display: inline;
-}
-
-#content img{
-	float: left;
-	margin-right: 10px;
-}
-
-#content{
-	height: 280px;
-}
-
-#container{
-	background-color: white;
-	width: 1000px;
-	margin: 0 auto;
-	padding: 10px;
-}
-
-#footer{
-	text-align: center;
-	border-top: 1px solid black;
-	padding-bottom: 1px;
-}
+		#container{
+			width: 1100px;
+			margin: 0 auto;
+			background-color: blue;
+			padding: 10px;
+		}
+		body {
+			background-color: green;
+			margin: 0;
+		}
+		h2{
+			margin-top: 0;
+		}
+		#col1{
+			width: 800px;
+			background-color: yellow;
+			display: inline-block;
+		}
+		#col1 img {
+			width: 260px;
+		}
+		#col2{
+			width: 250px;
+			background-color: purple;
+			display: inline-block;
+		}
