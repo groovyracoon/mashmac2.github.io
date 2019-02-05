@@ -1,29 +1,16 @@
-		#container{
-			width: 1100px;
-			margin: 0 auto;
-			background-color: #ffffff;
-			padding: 10px;
-		}
-		body {
-			background-color: green;
-			margin: 0;
-		}
-		h2{
-			margin-top: 0;
-		}
-		#col1{
-			width: 800px;
-			background-color: yellow;
-			display: inline-block;
-		}
-		#col1 img {
-			width: 260px;
-		}
-		#col2{
-			width: 250px;
-			background-color: purple;
-			display: inline-block;
-		}
-		#about #container{
-			background-color: red;
-		}
+body {
+	background-color: red;
+	margin: 0;
+}
+#container {
+	background-color: #91a0ba;
+	width: 1000px;
+	margin: 0 auto;
+}
+main{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.home-pic {
+	width: 400px;
+}
