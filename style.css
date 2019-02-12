@@ -1,16 +1,46 @@
 body {
-	background-color: red;
+	background-color: #91a0ba;
 	margin: 0;
 }
 #container {
-	background-color: #91a0ba;
+	background-color: white;
 	width: 1000px;
 	margin: 0 auto;
+}
+header{
+	background-color: #3e83d1;
 }
 main{
 	padding-left: 20px;
 	padding-right: 20px;
 }
+#main-top{
+	height: 400px;
+	margin-top: 40px;
+}
+#main-top div{
+	width: 450px;
+}
+#main-top-left{
+	float:left;
+}
+#main-top-left h1{
+	font-size: 84px;
+	margin-top: 10px;
+	text-align: left;
+}
+#main-top-right{
+	float: right;
+}
 .home-pic {
 	width: 400px;
+	height: 400px;
+}
+
+footer {
+	text-align: center;
+	font-weight: bold;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background-color: #91a0ba;
 }
