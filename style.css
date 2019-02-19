@@ -34,9 +34,21 @@ main{
 }
 .home-pic {
 	width: 400px;
-	height: 400px;
+	height: 350px;
 }
-
+#main-bottom div{
+	border: 1px solid black;
+	background-color: #3e83d1;
+	margin-left: 7px;
+	margin-right: 7px;
+	margin-bottom: 20px;
+	width: 300px;
+	display: inline-block; 
+}
+#main-bottom h3{
+	text-align: center;
+	font-size: 	28px;
+}
 footer {
 	text-align: center;
 	font-weight: bold;
