@@ -49,3 +49,30 @@ footer{
 .home-big-pic{
 	width: 100%;
 }
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 300px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+  background-color: yellow;
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: navy;
+  text-align: center;
+  padding: 8px 36px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+nav li a:hover {
+  background-color: orange;
+}
