@@ -1,78 +1,12 @@
-/* CSS for website */
-body{
-	
-}
-
-header{
+body {
 	background-color: red;
 }
 
-main{
-	
-}
-
-footer{
-	background-color: blue;
-	color: white;
-	text-align: center;
-}
-
-.home{
-	background-color: #009933;
-}
-
-.container{
-	width: 1100px;
-	margin: 0 auto;
+#container {
 	background-color: white;
-}
-
-.home-2-col{
-	display: inline-block;
-	width: 528px;
-	margin-left: 10px;
-	margin-right: 10px;
-	vertical-align: top;
-}
-
-.home-3-col{
-	display: inline-block;
-	width: 337px; 
-	margin-left: 20px;
-	vertical-align: top;
-}
-
-.home-3-col-dad{
-	padding-top: 30px;
-}
-
-.home-big-pic{
-	width: 100%;
-}
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  padding-left: 300px;
-  border-top: 1px solid black;
-  border-bottom: 1px solid black;
-  overflow: hidden;
-  background-color: yellow;
-}
-
-nav li {
-  float: left;
-}
-
-nav li a {
-  display: block;
-  color: navy;
-  text-align: center;
-  padding: 8px 36px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-nav li a:hover {
-  background-color: orange;
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	margin-bottom: 0;
 }
